@@ -1,0 +1,46 @@
+/* Estilos propios de Onírica: CSS adicional + portada (en el mismo orden que el original) */
+
+/* === wp-custom-css === */
+body,.site,.ast-separate-container,.site-content,#content{background:#14142b!important;color:#ede9ff}
+h1,h2,h3,.entry-title,.entry-title a,.wp-block-latest-posts__post-title{font-family:'Playfair Display',Georgia,serif;color:#fff!important}
+a{color:#c9b8ff} a:hover{color:#f2c94c}
+.site-header,.main-header-bar{background:rgba(20,20,43,.92)!important}
+.main-header-menu a{color:#ede9ff!important}
+.site-footer,.site-below-footer-wrap,.ast-small-footer{background:#0d0d24!important;color:#c9b8ff}
+.ast-article-single,.ast-article-post{background:rgba(255,255,255,.04)!important;border-radius:16px}
+.wp-block-latest-posts__featured-image img{border-radius:16px}
+table,th,td{border-color:rgba(201,184,255,.3)!important}
+.site-title a,.site-title,.ast-site-identity .site-title a{color:#fff!important}
+.main-header-bar,.site-header{border-bottom:1px solid rgba(201,184,255,.2)!important}
+.main-header-menu .sub-menu,.ast-desktop .main-header-menu .sub-menu{background:#1b1440!important;border-color:rgba(201,184,255,.2)!important}
+.main-header-menu .sub-menu a,.main-header-menu .sub-menu .menu-link{color:#ede9ff!important}
+.main-header-menu .sub-menu a:hover{color:#f2c94c!important}
+
+.ast-separate-container .ast-article-post,
+.ast-separate-container .ast-article-single,
+.ast-separate-container .comment-respond,
+.ast-separate-container .ast-archive-description,
+.ast-separate-container .comments-count-wrapper,
+.ast-separate-container .ast-comment-list li.depth-1,
+.ast-separate-container .ast-woocommerce-container,
+.ast-article-inner{background-color:#1b1b3a!important;color:#ede9ff!important;border-radius:16px}
+
+.ast-archive-description .ast-archive-title,.ast-archive-description p,
+.comment-reply-title,.logged-in-as,.comment-notes,.comment-form label,
+.entry-meta,.entry-meta a,.ast-excerpt-container p,.entry-content p{color:#ede9ff!important}
+.entry-meta a,.read-more a{color:#c9b8ff!important}
+
+.comment-form input[type=text],.comment-form input[type=email],.comment-form input[type=url],.comment-form textarea,.search-field{background:#14142b!important;color:#fff!important;border:1px solid rgba(201,184,255,.3)!important}
+.comment-form .submit,.ast-button,button[type=submit]{background:#f2c94c!important;color:#14142b!important;border-radius:999px!important}
+.post-navigation a,.ast-single-post-order a{color:#c9b8ff!important}
+
+/* === estilos-portada === */
+.on-hero{min-height:92vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:80px 24px;color:#EDE9FF;background:radial-gradient(circle at 20% 20%,#3b2a7a 0,transparent 45%),radial-gradient(circle at 80% 70%,#6c4ab6 0,transparent 40%),linear-gradient(180deg,#0d0d24,#1b1440)}
+.on-hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(2.6rem,7vw,5.5rem);margin:0 0 16px;color:#fff}
+.on-hero p{max-width:640px;margin:0 auto 32px;font-size:1.2rem;color:#c9b8ff}
+.on-btn{display:inline-block;padding:14px 32px;border-radius:999px;background:#f2c94c;color:#14142b;font-weight:700;text-decoration:none}
+.on-sec{padding:72px 24px;background:#14142b;color:#ede9ff}
+.on-sec h2{text-align:center;font-family:'Playfair Display',Georgia,serif;color:#fff;margin-bottom:40px}
+.on-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;max-width:1100px;margin:0 auto}
+.on-card{background:rgba(255,255,255,.05);border:1px solid rgba(201,184,255,.2);border-radius:20px;padding:28px}
+.on-card h3{color:#f2c94c;margin-top:0}
